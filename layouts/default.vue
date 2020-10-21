@@ -3,6 +3,7 @@
     <v-app-bar
       fixed
       app
+      prominent
       class="indigo lighten-1"
     >
       <v-toolbar-title>
@@ -11,9 +12,9 @@
           color="white" 
         >mdi-cart</v-icon>
         <span>Store</span>  
-      </v-toolbar-title> 
+      </v-toolbar-title>
       <v-spacer />
-    </v-app-bar>
+    </v-app-bar> 
     <v-main>
       <nuxt />
     </v-main>
