@@ -1,22 +1,32 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>  
-    </v-col>
-  </v-row>
+  <section class="main-section">
+    <CarouselBanners /> 
+    <div>
+      <v-container>
+        <v-row justify="center" align="center">
+          <v-col cols="12" sm="8" md="6">
+            <div class="text-center">
+                
+            </div>  
+          </v-col> 
+        </v-row>
+      </v-container>
+    </div>
+  </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+  import CarouselBanners from '~/components/CarouselBanners.vue'
 
-export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
-}
+  export default {
+    components: {
+      CarouselBanners
+    }
+  } 
 </script>
+
+<style lang="scss">
+  .main-section {
+    background-color: white; 
+  }
+</style>

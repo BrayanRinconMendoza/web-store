@@ -1,26 +1,21 @@
 <template>
   <v-app>
     <v-app-bar
-      :clipped-left="clipped"
       fixed
       app
-      light
+      class="indigo lighten-1"
     >
-      <div class="title-container">
+      <v-toolbar-title>
         <v-icon
           size="50"
-          color="green"
+          color="white" 
         >mdi-cart</v-icon>
-        <v-toolbar-title>
-          Store
-        </v-toolbar-title>
-      </div>
+        <span>Store</span>  
+      </v-toolbar-title> 
       <v-spacer />
     </v-app-bar>
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-main>
     <v-footer
       dark
@@ -51,7 +46,7 @@
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          {{ new Date().getFullYear() }}
         </v-card-text>
       </v-card>
     </v-footer>
@@ -71,6 +66,8 @@
   }
 </script>
 
-<style> 
-
+<style lang="scss">
+  
 </style>
+
+
