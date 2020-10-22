@@ -3,17 +3,20 @@
     <v-app-bar
       fixed
       app
-      prominent
-      class="indigo lighten-1"
+      light
     >
-      <v-toolbar-title>
+      <v-toolbar-title class="icon-and-title">
         <v-icon
           size="50"
-          color="white" 
+          color="indigo" 
         >mdi-cart</v-icon>
         <span>Store</span>  
       </v-toolbar-title>
       <v-spacer />
+      <div class="buttons-container">
+        <v-btn text>FAQ</v-btn>
+        <v-btn outlined color="indigo">Products</v-btn>
+      </div>
     </v-app-bar> 
     <v-main>
       <nuxt />
@@ -68,7 +71,14 @@
 </script>
 
 <style lang="scss">
-  
+  .icon-and-title {
+    display: block;
+    margin: auto;
+  }
+  .buttons-container {
+    display: block;
+    bottom: 0;
+  }
 </style>
 
 
