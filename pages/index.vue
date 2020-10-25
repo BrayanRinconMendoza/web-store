@@ -14,14 +14,13 @@
     </div>
     <div class="content-home">
       <v-container>
-        <h1>HyperDiem Cycling</h1>
         <v-row justify="center">
           <v-col cols="6" sm="8" md="6">
             <div class="expansion-panel-container">
               <v-expansion-panels popout light> 
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <span>¿Quiénes somos?</span>
+                    <h1>¿Quiénes somos?</h1>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -48,7 +47,7 @@
                 </v-expansion-panel>
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <span>Misión</span>
+                    <h1>Misión</h1>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -57,13 +56,13 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Proveer el mejor servicio a los usuarios de bicicletas, atendiendo sus requerimientos y ofreciéndole buenos productos para lograr así un excelente satisfacción a nuestros clientes.
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <span>Visión</span>
+                    <h1>Visión</h1>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -72,29 +71,11 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Llegar a consolidarnos como una empresa en el comercio de bicicletas, destacando su seriedad, servicio y atención, además liderando la innovación de productos y repuestos que nos permitirán ser más competitivos.
-                    </p>
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-                <v-expansion-panel> 
-                  <v-expansion-panel-header>
-                    <span>Valores corporativos</span>
-                    <template v-slot:actions>
-                      <v-icon color="indigo">
-                        $expand
-                      </v-icon>
-                    </template>
-                  </v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    <p>
-                      Atención personal que nos permita dar el mejor servicio al usuario.
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
-              <div>
-                <img src="/color-white.png" alt="Logo" class="logo-home">
-              </div>
             </div> 
           </v-col>
           <v-col cols="6" sm="8" md="6">
@@ -332,18 +313,10 @@
   }
   .content-home {
     color: #000000;
-    h1 {
-      font-size: 25px;
-      margin-left: 15px;
-    }
     .expansion-panel-container {
-      span {
+      h1 {
         color: #3f51b5;
       }
-    }
-    .logo-home {
-      margin-left: 25px;
-      margin-top: 50px;
     }
   }
   .product-news {
