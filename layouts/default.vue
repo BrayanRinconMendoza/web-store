@@ -7,7 +7,7 @@
       prominent
     >
       <v-toolbar-title class="icon-and-title">
-        <a> 
+        <a href="/"> 
           <v-img src="/color-white.png" width="90" height="90" class="logo"></v-img>    
         </a> 
       </v-toolbar-title>
