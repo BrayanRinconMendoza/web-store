@@ -1,7 +1,7 @@
 <template>
   <section class="main-section">
     <div>
-      <h1>Frequently Asked Questions</h1>
+      <h1>Preguntas Frecuentes</h1>
     </div>
     <div class="panels-container">
       <v-container>
