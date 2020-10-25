@@ -1,7 +1,8 @@
 # proyecto_web
-# Participantes: Brayan Rincón Mendoza
-#                David Karreño
-#                Luis Ernesto Suarez Morales
+# Participantes: 
+Brayan Alexis Rincón Mendoza --> Código: 1151136
+David Carreño Naranjo --> Código: 1151284
+Luis Ernesto Suarez Morales --> Código: 1151277
 ## Build Setup
 
 ```bash
