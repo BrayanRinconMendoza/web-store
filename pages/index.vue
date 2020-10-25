@@ -190,7 +190,7 @@
       <v-container>
         <h1 class="text-center">Novedades</h1>
         <v-row>
-          <v-col cols="4">
+          <div class="col-lg-4">
             <v-card
             class="mx-auto"
             max-width="344"
@@ -230,8 +230,8 @@
                 </div>
               </v-expand-transition>
             </v-card>
-          </v-col>
-          <v-col cols="4">
+          </div>
+          <div class="col-lg-4">
             <v-card
             class="mx-auto"
             max-width="344"
@@ -271,8 +271,8 @@
                 </div>
               </v-expand-transition>
             </v-card>
-          </v-col>
-          <v-col cols="4">
+          </div>
+          <div class="col-lg-4">
             <v-card
             class="mx-auto"
             max-width="344"
@@ -312,7 +312,7 @@
                 </div>
               </v-expand-transition>
             </v-card>
-          </v-col>
+          </div>
         </v-row>
       </v-container>
     </div>
