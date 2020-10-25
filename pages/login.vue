@@ -38,6 +38,7 @@
                                         color="green"
                                         class="mr-4 button-validate"
                                         @click="validate"
+                                        href="/product-listing"
                                     >Ingresar</v-btn>
                                     <v-btn
                                         color="red"

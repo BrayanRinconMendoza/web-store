@@ -27,11 +27,14 @@
                                     v-model="email"
                                     :rules="emailRules"
                                     label="Email"
+                                    type="email"
                                     required
                                     outlined
                                     color="white"
                                 ></v-text-field>
                                 <v-textarea
+                                    v-model="textarea"
+                                    :rules="textareaRules"
                                     label="Mensaje"
                                     auto-grow
                                     outlined
@@ -70,7 +73,12 @@
             emailRules: [
                 v => !!v || 'E-mail es necesario',
                 v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
-            ]
+            ],
+            textarea: '',
+            textareaRules: [
+                v => !!v || 'Nombre es necesario',
+                v => (v && v.length <= 10) || 'Name must be less than 10 characters',
+            ],
         }),
         methods: {
             validate () {
