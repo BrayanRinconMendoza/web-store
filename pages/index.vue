@@ -14,23 +14,47 @@
     </div>
     <div class="content-home">
       <v-container>
-        <v-row>
+        <v-row justify="center">
           <v-col cols="6" sm="8" md="6">
             <div>
-              <h1>Quienes somos</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aspernatur nulla non laudantium labore, ipsa repudiandae, neque et, fuga possimus aliquid officia esse consequatur? Aspernatur modi laudantium quisquam fuga eveniet?</p>
-              <v-btn
-              outlined
-              color="indigo lighten-1" 
-              href="/faq"
-              >
-              FAQ
-              </v-btn>
-              <v-btn
-              outlined
-              color="indigo lighten-1"
-              href="/contact-us"
-              >Contact Us</v-btn>
+              <v-expansion-panels popout light> 
+                <v-expansion-panel> 
+                  <v-expansion-panel-header>Quienes somos</v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <p>
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                    </p>
+                    <div>
+                      <v-btn
+                        outlined
+                        color="indigo lighten-1" 
+                        href="/faq"
+                      >FAQ</v-btn>
+                      <v-btn
+                        outlined
+                        color="indigo lighten-1"
+                        href="/contact-us"
+                      >Contact Us</v-btn>
+                    </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+                <v-expansion-panel> 
+                  <v-expansion-panel-header>Misión</v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <p>
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                    </p>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+                <v-expansion-panel> 
+                  <v-expansion-panel-header>Visión</v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <p>
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                    </p>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
             </div> 
           </v-col>
           <v-col cols="6" sm="8" md="6">
