@@ -13,6 +13,7 @@
       </v-toolbar-title>
       <v-spacer />
       <div class="buttons-container">
+        <v-btn outlined color="indigo" href="/"><v-icon>mdi-home</v-icon>Home</v-btn>
         <v-btn outlined color="indigo" href="/faq">FAQ</v-btn>
         <v-btn outlined color="indigo">Products</v-btn> 
         <v-btn outlined color="indigo"><v-icon>mdi-account-circle</v-icon>Login</v-btn> 

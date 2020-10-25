@@ -15,12 +15,14 @@
     <div class="content-home">
       <v-container>
         <v-row justify="center">
-          <v-col cols="6" sm="8" md="6">
+          <div class="col-lg-6">
+            <h1></h1>
             <div class="expansion-panel-container">
+              <h4>HyperDiem Cycling</h4>
               <v-expansion-panels popout light> 
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <h1>¿Quiénes somos?</h1>
+                    <span>¿Quiénes somos?</span>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -47,7 +49,7 @@
                 </v-expansion-panel>
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <h1>Misión</h1>
+                    <span>Misión</span>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -62,7 +64,22 @@
                 </v-expansion-panel>
                 <v-expansion-panel> 
                   <v-expansion-panel-header>
-                    <h1>Visión</h1>
+                    <span>Visión</span>
+                    <template v-slot:actions>
+                      <v-icon color="indigo">
+                        $expand
+                      </v-icon>
+                    </template>
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <p>
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                    </p>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+                <v-expansion-panel> 
+                  <v-expansion-panel-header>
+                    <span>Valores Corporativos</span>
                     <template v-slot:actions>
                       <v-icon color="indigo">
                         $expand
@@ -76,9 +93,16 @@
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
+              <div class="logo-home">
+                <v-img
+                  src="/color-white.png"
+                  height="300"
+                  width="300"
+                ></v-img>
+              </div>
             </div> 
-          </v-col>
-          <v-col cols="6" sm="8" md="6">
+          </div>
+          <div class="col-lg-6">
             <v-card
               class="mx-auto"
               max-width="400"
@@ -158,7 +182,7 @@
                 </v-btn>
               </v-card-actions>
             </v-card>
-          </v-col>
+          </div>
         </v-row>
       </v-container>
     </div>
@@ -314,8 +338,17 @@
   .content-home {
     color: #000000;
     .expansion-panel-container {
-      h1 {
+      h4 {
+        font-size: 30px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+      }
+      span {
         color: #3f51b5;
+      }
+      .logo-home {
+        margin-left: 20px;
+        margin-top: 25px;
       }
     }
   }
