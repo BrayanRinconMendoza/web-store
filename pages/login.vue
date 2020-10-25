@@ -4,7 +4,7 @@
             <v-row>
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <v-card color="indigo lighten-1 text-center">
+                    <v-card color="indigo darken-1 text-center">
                         <v-container>
                             <span class="login-tag">
                                 <v-icon>mdi-account</v-icon>
@@ -35,12 +35,12 @@
                                 <div class="buttons-form">
                                     <v-btn
                                         :disabled="!valid"
-                                        color="success"
+                                        color="green"
                                         class="mr-4 button-validate"
                                         @click="validate"
                                     >Ingresar</v-btn>
                                     <v-btn
-                                        color="error"
+                                        color="red"
                                         class="mr-4 button-reset"
                                         @click="reset"
                                     >Limpiar Login</v-btn>
@@ -83,6 +83,9 @@
 
 <style lang="scss">
     .login-section {
+        background-image: url("/fondo_3.jpeg");
+        background-size: cover;
+        height: 400px;
         background-color: white;
         .login-tag {
             font-size: 25px;
