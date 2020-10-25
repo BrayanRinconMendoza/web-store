@@ -21,7 +21,7 @@
                                     label="E-mail"
                                     required
                                     outlined
-                                    color="white"
+                                    color="#3f51b5"
                                 ></v-text-field>
                                 <v-text-field
                                     v-model="name"
