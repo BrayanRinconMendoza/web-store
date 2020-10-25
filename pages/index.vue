@@ -16,10 +16,17 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="6" sm="8" md="6">
-            <div>
+            <div class="expansion-panel-container">
               <v-expansion-panels popout light> 
                 <v-expansion-panel> 
-                  <v-expansion-panel-header>Quienes somos</v-expansion-panel-header>
+                  <v-expansion-panel-header>
+                    <h1>¿Quiénes somos?</h1>
+                    <template v-slot:actions>
+                      <v-icon color="indigo">
+                        $expand
+                      </v-icon>
+                    </template>
+                  </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
                       Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
@@ -39,7 +46,14 @@
                   </v-expansion-panel-content>
                 </v-expansion-panel>
                 <v-expansion-panel> 
-                  <v-expansion-panel-header>Misión</v-expansion-panel-header>
+                  <v-expansion-panel-header>
+                    <h1>Misión</h1>
+                    <template v-slot:actions>
+                      <v-icon color="indigo">
+                        $expand
+                      </v-icon>
+                    </template>
+                  </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
                       Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
@@ -47,7 +61,14 @@
                   </v-expansion-panel-content>
                 </v-expansion-panel>
                 <v-expansion-panel> 
-                  <v-expansion-panel-header>Visión</v-expansion-panel-header>
+                  <v-expansion-panel-header>
+                    <h1>Visión</h1>
+                    <template v-slot:actions>
+                      <v-icon color="indigo">
+                        $expand
+                      </v-icon>
+                    </template>
+                  </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
                       Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
@@ -292,6 +313,11 @@
   }
   .content-home {
     color: #000000;
+    .expansion-panel-container {
+      h1 {
+        color: #3f51b5;
+      }
+    }
   }
   .product-news {
     h1 {
