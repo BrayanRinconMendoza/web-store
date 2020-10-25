@@ -21,7 +21,7 @@
                                     label="E-mail"
                                     required
                                     outlined
-                                    color="#3f51b5"
+                                    color="white"
                                 ></v-text-field>
                                 <v-text-field
                                     v-model="name"
@@ -85,8 +85,7 @@
     .login-section {
         background-image: url("/fondo_3.jpeg");
         background-size: cover;
-        height: 400px;
-        background-color: white;
+        height: auto;
         .login-tag {
             font-size: 25px;
         }
