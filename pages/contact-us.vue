@@ -75,7 +75,7 @@
         methods: {
             validate () {
                 this.$refs.form.validate()
-            }
+            },
         }
     }
 </script>
