@@ -18,7 +18,7 @@
           Home
         </v-btn>
         <v-btn outlined color="indigo" href="/faq">FAQ</v-btn>
-        <v-btn outlined color="indigo">Products</v-btn> 
+        <v-btn outlined color="indigo" class="/plp">Products</v-btn> 
         <v-btn outlined color="indigo" href="/login">
           <v-icon>mdi-account-circle</v-icon>
           Login
@@ -54,7 +54,7 @@
           Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </v-card-text>
         <div class="buttons-container">
-          <v-btn outlined color="white">Contact Us</v-btn> 
+          <v-btn outlined color="white" href="/contact-us">Contact Us</v-btn> 
         </div>
         <v-divider></v-divider> 
         <v-card-text class="white--text">

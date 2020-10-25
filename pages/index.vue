@@ -31,8 +31,8 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
-                    </p>
+                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia. Nace por el hobby y el gusto que genera la actividad ciclística en todas sus actividades. El ciclismo como actividad deportiva ha venido generando espacio día tras día y es por ello que creamos HyperDiem Cycling y además no es solamente esta pasión por la bicicleta, sino también de introducirle un valor agregado a todo esto y complementarlo con servicio al cliente, atención personal, asesoría y en algunos veces instruir y capacitar al cliente.
+                    </p> 
                     <div>
                       <v-btn
                         outlined
@@ -58,7 +58,7 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                      Proveer el mejor servicio a los usuarios de bicicletas, atendiendo sus requerimientos y ofreciéndole buenos productos para lograr así un excelente satisfacción a nuestros clientes.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -73,7 +73,7 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                      Llegar a consolidarnos como una empresa en el comercio de bicicletas, destacando su seriedad, servicio y atención, además liderando la innovación de productos y repuestos que nos permitirán ser más competitivos.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -88,7 +88,7 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      Tienda especializada en la comercialización de bicicletas y repuestos en la ciudad de Bogotá, Colombia.
+                      Atención personal que nos permita dar el mejor servicio al usuario.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
