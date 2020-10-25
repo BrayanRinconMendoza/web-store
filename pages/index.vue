@@ -21,13 +21,15 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos aspernatur nulla non laudantium labore, ipsa repudiandae, neque et, fuga possimus aliquid officia esse consequatur? Aspernatur modi laudantium quisquam fuga eveniet?</p>
               <v-btn
               outlined
-              color="indigo lighten-1"
-              href="/faq.vue"
-              >FAQ</v-btn>
+              color="indigo lighten-1" 
+              href="/faq"
+              >
+              FAQ
+              </v-btn>
               <v-btn
               outlined
               color="indigo lighten-1"
-              href="/contact-us.vue"
+              href="/contact-us"
               >Contact Us</v-btn>
             </div> 
           </v-col>
