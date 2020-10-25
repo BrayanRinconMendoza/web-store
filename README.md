@@ -1,5 +1,7 @@
 # proyecto_web
-
+# Participantes: Brayan Rincón Mendoza
+#                David Karreño
+#                Luis Ernesto Suarez Morales
 ## Build Setup
 
 ```bash
