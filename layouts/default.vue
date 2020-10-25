@@ -12,7 +12,7 @@
         </a> 
       </v-toolbar-title>
       <v-spacer />
-      <div class="buttons-container">
+      <div class="buttons-container">    
         <v-btn outlined color="indigo" href="/" small>
           <v-icon>mdi-home</v-icon>
           Home
