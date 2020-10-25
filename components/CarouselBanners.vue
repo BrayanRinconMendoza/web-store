@@ -3,7 +3,6 @@
     height="450"
     hide-delimiter-background
     show-arrows-on-hover
-    cycle 
   >
     <v-carousel-item
       v-for="(item,i) in items"
