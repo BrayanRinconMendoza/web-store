@@ -4,13 +4,12 @@
       fixed
       app
       light
+      prominent
     >
       <v-toolbar-title class="icon-and-title">
-        <v-icon
-          size="50"
-          color="indigo" 
-        >mdi-cart</v-icon>
-        <span>Store</span>  
+        <a> 
+          <v-img src="/color-white.png" width="90" height="90" class="logo"></v-img>    
+        </a> 
       </v-toolbar-title>
       <v-spacer />
       <div class="buttons-container">
@@ -76,10 +75,14 @@
   .icon-and-title {
     display: block;
     margin: auto;
+    .logo {
+      margin-left: 20px; 
+    }
   }
   .buttons-container {
     display: block;
     bottom: 0;
+    margin: auto;
   }
 </style>
 
