@@ -13,13 +13,13 @@
       </v-toolbar-title>
       <v-spacer />
       <div class="buttons-container">
-        <v-btn outlined color="indigo" href="/">
+        <v-btn outlined color="indigo" href="/" small>
           <v-icon>mdi-home</v-icon>
           Home
         </v-btn>
-        <v-btn outlined color="indigo" href="/faq">FAQ</v-btn>
-        <v-btn outlined color="indigo" class="/plp">Products</v-btn> 
-        <v-btn outlined color="indigo" href="/login">
+        <v-btn outlined color="indigo" href="/faq" small>FAQ</v-btn>
+        <v-btn outlined color="indigo" class="/plp" small>Products</v-btn> 
+        <v-btn outlined color="indigo" href="/login" small>
           <v-icon>mdi-account-circle</v-icon>
           Login
         </v-btn> 
@@ -91,6 +91,9 @@
     margin: auto;
     .logo {
       margin-left: 20px; 
+      @media screen and (max-width: 769px) {
+        display: none;
+		  }
     }
   }
   .text-footer {
@@ -104,5 +107,3 @@
     margin: auto;
   }
 </style> 
-
-
