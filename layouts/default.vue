@@ -18,7 +18,7 @@
           Home
         </v-btn>
         <v-btn outlined color="indigo" href="/faq" small>FAQ</v-btn>
-        <v-btn outlined color="indigo" class="/plp" small>Products</v-btn> 
+        <v-btn outlined color="indigo" href="/product-registration" small>Products</v-btn> 
         <v-btn outlined color="indigo" href="/login" small>
           <v-icon>mdi-account-circle</v-icon>
           Login
