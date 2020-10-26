@@ -79,8 +79,8 @@
                             :complete="e6 > 2"
                             step="2"
                         >
-                            Referencia, marca y categoría
-                            <small>En esta sección se agrega la referencia, marca y categoría del producto</small>
+                            Referencia, marca, categoría e imagen
+                            <small>En esta sección se agrega la referencia, marca, categoría e imagen del producto</small>
                         </v-stepper-step>
 
                         <v-stepper-content step="2">
@@ -122,6 +122,12 @@
                                             outlined
                                             color="#3f51b5"
                                         ></v-text-field>
+                                         <v-file-input
+                                            label="File input"
+                                            outlined
+                                            dense
+                                            color="#3f51b5"
+                                        ></v-file-input>
                                     </v-container>
                                 </v-form>
                             </v-card>
@@ -151,7 +157,7 @@
                                     v-model="valid"
                                     lazy-validation
                                 >
-                                    <v-container>
+                                    <v-container class="text-center">
                                         <v-btn
                                             color="green"
                                             dark
