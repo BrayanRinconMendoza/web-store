@@ -27,27 +27,21 @@
                             <v-form>
                                 <v-container>
                                     <v-text-field
-                                        v-model="name"
                                         :counter="15"
-                                        :rules="nameRules"
                                         label="Nombre"
                                         required
                                         outlined
                                         color="#3f51b5"
                                     ></v-text-field>
                                     <v-text-field
-                                        v-model="description"
                                         :counter="50"
-                                        :rules="descriptionRules"
                                         label="Descripción"
                                         required
                                         outlined
                                         color="#3f51b5"
                                     ></v-text-field>
                                     <v-text-field
-                                        v-model="detail"
                                         :counter="50"
-                                        :rules="detailRules"
                                         label="Detalle"
                                         required
                                         outlined
@@ -88,27 +82,21 @@
                                 <v-form>
                                     <v-container>
                                         <v-text-field
-                                            v-model="reference"
                                             :counter="15"
-                                            :rules="referenceRules"
                                             label="Referencia"
                                             required
                                             outlined
                                             color="#3f51b5"
                                         ></v-text-field>
                                         <v-text-field
-                                            v-model="brand"
                                             :counter="20"
-                                            :rules="brandRules"
                                             label="Marca"
                                             required
                                             outlined
                                             color="#3f51b5"
                                         ></v-text-field>
                                         <v-text-field
-                                            v-model="category"
                                             :counter="20"
-                                            :rules="categoryRules"
                                             label="Categoría"
                                             required
                                             outlined
