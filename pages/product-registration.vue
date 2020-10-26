@@ -184,6 +184,9 @@
         e6: 1,
       }
     },
+    data: () => ({
+      valid: true,
+    }),
     methods: {
       validate () {
         this.$refs.form.validate()
