@@ -24,11 +24,7 @@
                             class="mb-12"
                             height="auto"
                         >
-                            <v-form
-                                ref="form"
-                                v-model="valid"
-                                lazy-validation
-                            >
+                            <v-form>
                                 <v-container>
                                     <v-text-field
                                         v-model="name"
@@ -89,11 +85,7 @@
                                 class="mb-12"
                                 height="auto"
                             >
-                                <v-form
-                                    ref="form"
-                                    v-model="valid"
-                                    lazy-validation
-                                >
+                                <v-form>
                                     <v-container>
                                         <v-text-field
                                             v-model="reference"
@@ -152,11 +144,7 @@
                                 class="mb-12"
                                 height="auto"
                             >
-                                <v-form
-                                    ref="form"
-                                    v-model="valid"
-                                    lazy-validation
-                                >
+                                <v-form>
                                     <v-container class="text-center">
                                         <v-btn
                                             color="green"
@@ -184,9 +172,6 @@
         e6: 1,
       }
     },
-    data: () => ({
-      valid: true,
-    }),
     methods: {
       validate () {
         this.$refs.form.validate()
