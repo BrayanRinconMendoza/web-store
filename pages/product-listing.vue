@@ -4,7 +4,29 @@
             <v-row>
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
-                    <h4>Listado de Productos</h4>
+                    <div class="main-content">
+                        <h4>Listado de Productos</h4>
+                        <v-tooltip bottom>
+                            <template v-slot:activator="{ on, attrs }">
+                               <v-btn
+                                    class="mx-2"
+                                    fab
+                                    dark
+                                    color="indigo lighten-1"
+                                    outlined  
+                                    small 
+                                    href="/product-registration"
+                                    v-bind="attrs"
+                                    v-on="on"
+                                >
+                                    <v-icon dark>
+                                        mdi-plus
+                                    </v-icon>
+                                </v-btn>
+                            </template>
+                            <span>Registrar un nuevo producto</span>
+                        </v-tooltip>
+                    </div>
                     <v-simple-table 
                         fixed-header
                         class="indigo lighten-1"
@@ -93,9 +115,16 @@
     .product-listing-content {
         background-color: white;
         height: auto;
-        h4 {
+        .main-content {
+            align-content: space-between;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            h4 {
             color: #000000;
             font-size: 30px;
+            margin-right: 30px;
+            }
         }
     }
 </style>
