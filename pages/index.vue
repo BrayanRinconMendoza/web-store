@@ -1,17 +1,6 @@
 <template>
   <section class="main-section">
     <CarouselBanners /> 
-    <div>
-      <v-container>
-        <v-row justify="center" align="center">
-          <v-col cols="12" sm="8" md="6">
-            <div class="text-center">
-                
-            </div>  
-          </v-col> 
-        </v-row>
-      </v-container>
-    </div>
     <div class="content-home">
       <v-container>
         <v-row justify="center">
@@ -109,7 +98,6 @@
               light
               height="400"
             >
-
             </v-card>
           </div>
         </v-row>
@@ -243,6 +231,16 @@
             </v-card>
           </div>
         </v-row>
+        <div class="text-center ver-mas-productos">
+          <v-btn
+            href="/plp"
+            outlined
+            color="indigo lighten-1" 
+            large
+          >
+            Ver más productos
+          </v-btn>
+        </div>
       </v-container>
     </div>
   </section>
@@ -263,9 +261,11 @@
 <style lang="scss">
   .main-section {
     background-color: white; 
+    height: auto;
   }
   .content-home {
     color: #000000;
+    margin-top: 40px;
     .expansion-panel-container {
       h4 {
         font-size: 30px;
@@ -287,6 +287,10 @@
   .product-news {
     h1 {
       color: #000000;
+    }
+    .ver-mas-productos {
+      margin-top: 40px;
+      margin-bottom: 50px;
     }
   }
 </style>
