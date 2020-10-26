@@ -33,22 +33,27 @@
                     >
                         <template v-slot:default>
                             <thead>
-                                <tr color="indigo lighten-1">
-                                    <th class="text-left">
-                                        Name
+                                <tr>
+                                    <th class="text-left indigo lighten-1">
+                                        Referencia
                                     </th>
-                                    <th class="text-left">
-                                        Calories
+                                    <th class="text-left indigo lighten-1">
+                                        Nombre
+                                    </th>
+                                    <th class="text-left indigo lighten-1">
+                                        Precio
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr
-                                    v-for="item in desserts"
-                                    :key="item.name"
+                                    v-for="item in products"
+                                    :key="item.nombre"
                                 >
-                                    <td>{{ item.name }}</td>
-                                    <td>{{ item.calories }}</td>
+                                    
+                                    <td>{{ item.referencia }}</td>
+                                    <td>{{ item.nombre }}</td>
+                                    <td>{{ item.precio }}</td>
                                 </tr>
                             </tbody>
                         </template>
@@ -64,47 +69,32 @@
   export default {
     data () {
       return {
-        desserts: [
+        products: [
           {
-            name: 'Frozen Yogurt',
-            calories: 159,
+            referencia: '001',
+            nombre: 'GW',
+            precio: 160,
           },
           {
-            name: 'Ice cream sandwich',
-            calories: 237,
+            referencia: '002',
+            nombre: 'GW',
+            precio: 179,
           },
           {
-            name: 'Eclair',
-            calories: 262,
+            referencia: '003',
+            nombre: 'GW',
+            precio: 190,
           },
           {
-            name: 'Cupcake',
-            calories: 305,
+            referencia: '004',
+            nombre: 'GW',
+            precio: 130,
           },
           {
-            name: 'Gingerbread',
-            calories: 356,
-          },
-          {
-            name: 'Jelly bean',
-            calories: 375,
-          },
-          {
-            name: 'Lollipop',
-            calories: 392,
-          },
-          {
-            name: 'Honeycomb',
-            calories: 408,
-          },
-          {
-            name: 'Donut',
-            calories: 452,
-          },
-          {
-            name: 'KitKat',
-            calories: 518,
-          },
+            referencia: '005',
+            nombre: 'GW',
+            precio: 147,
+          }
         ],
       }
     },
