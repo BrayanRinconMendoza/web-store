@@ -8,7 +8,7 @@
     >
       <v-toolbar-title class="icon-and-title">
         <a href="/"> 
-          <v-img src="/color-white.png" width="90" height="90" class="logo"></v-img>    
+          <v-img src="" width="90" height="90" class="logo"></v-img>    
         </a> 
       </v-toolbar-title>
       <v-spacer />

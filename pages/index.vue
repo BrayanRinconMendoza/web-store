@@ -84,7 +84,7 @@
               </v-expansion-panels>
               <div class="logo-home">
                 <v-img
-                  src="/color-white.png"
+                  src=""
                   height="300"
                   width="300"
                 ></v-img>
